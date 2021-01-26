@@ -1,0 +1,27 @@
+{
+  "name": "bookings-ui5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server-dependencies": "cd server && npm install",
+    "client-dependencies": "cd client && npm install",
+    "install-deps": "concurrently \"npm run server-dependencies\" && npm run \"client-dependencies\"",
+    "prettify": "npx prettier --write server/**/*.js client/src/**/*.js*",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\" ",
+    "start": "concurrently \"cd server && npm run dev\" \"cd client && npm start\" "
+  },
+  "author": "Artemy Gevorkov <artemy.gevorkov@sap.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "eslint": "^7.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "2.2.1"
+  },
+  "dependencies": {}
+}

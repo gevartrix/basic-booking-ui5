@@ -1,0 +1,122 @@
+.app {
+  height: 100%;
+}
+
+.header-toolbar {
+  position:sticky;
+  z-index: 42;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 5px -5px #0a6ed1;
+}
+
+.ui5-logo {
+  height: 2rem;
+  margin-left: 2rem;
+}
+
+.app-title {
+  text-align: center;
+}
+
+.app-email {
+  display: block;
+  margin : 10px auto;
+  width: 25%;
+  text-align: center;
+}
+
+.app-content {
+  height: calc(100% - 3rem);
+  padding: 0 1rem;
+  width: calc(100% - 2rem);
+}
+
+.create-booking-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #b3b3b3;
+  box-sizing: border-box;
+}
+
+.add-booking-element-width {
+  width: auto;
+}
+
+#add-input {
+  flex: auto;
+}
+
+#date-picker {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.li-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li-content-dates {
+  width: 5rem;
+  justify-content: space-between;
+}
+
+.li-content-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.edit-btn {
+  margin-right: 1rem;
+}
+
+.dialog-content {
+  max-width: 320px;
+  padding: 2rem 2rem;
+}
+
+.dialog-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.25rem 0.25rem 0 0.25rem;
+  border-top: 1px solid #d9d9d9;
+}
+
+.title-textarea {
+  height: 100px;
+  display: inline-block;
+  width: 100%;
+}
+
+.date-edit-fields {
+  margin-top: 1rem;
+}
+
+ul {
+  margin-left: -1.5rem;
+  list-style: none;
+}
+
+li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+@media(max-width: 600px) {
+  .create-booking-wrapper {
+    flex-direction: column;
+  }
+
+  .add-booking-element-width  {
+    width: 100%;
+  }
+
+  #date-picker {
+    margin: 0.5rem 0 0.5rem 0;
+  }
+}
