@@ -40,50 +40,51 @@ Demo of a single page application with RESTful API that allows SAP employees to 
   <summary>Click to expand</summary>
 
     ├── client
-    │   └── src
-    │       ├── components
-    │       │   ├── elements
-    │       │   │   ├── BookingRow.jsx
-    │       │   │   ├── BookingsTable.jsx
-    │       │   │   ├── ErrorNotice.jsx
-    │       │   │   ├── Navbar.jsx
-    │       │   │   ├── PendingRow.jsx
-    │       │   │   ├── PendingsTable.jsx
-    │       │   │   └── SuccessNotice.jsx
-    │       │   └── pages
-    │       │       ├── Admin.jsx
-    │       │       ├── Login.jsx
-    │       │       └── User.jsx
-    │       ├── context
-    │       │   └── userContext.js
-    │       ├── App.css
-    │       ├── App.js
-    │       ├── index.js
-    │       └── serviceWorker.js
-    │   ├── package.json
-    │   └── package-lock.json
-    └── server
-        ├── api
-        │   ├── middleware
-        │   │   ├── authentication.verification.js
-        │   │   ├── authorization.verification.js
-        │   │   └── body.validation.js
-        │   ├── models
-        │   │   ├── Booking.model.js
-        │   │   ├── Device.model.js
-        │   │   └── User.model.js
-        │   └── routes
-        │       ├── auth.route.js
-        │       ├── bookings.route.js
-        │       └── devices.route.js
-        ├── .env.dist
-        ├── package.json
-        ├── package-lock.json
-        └── server.js
+    │   ├── src
+    │   │   ├── components
+    │   │   │   ├── elements
+    │   │   │   │   ├── BookingRow.jsx
+    │   │   │   │   ├── BookingsTable.jsx
+    │   │   │   │   ├── ErrorNotice.jsx
+    │   │   │   │   ├── Navbar.jsx
+    │   │   │   │   ├── PendingRow.jsx
+    │   │   │   │   ├── PendingsTable.jsx
+    │   │   │   │   └── SuccessNotice.jsx
+    │   │   │   └── pages
+    │   │   │       ├── Admin.jsx
+    │   │   │       ├── Login.jsx
+    │   │   │       └── User.jsx
+    │   │   ├── context
+    │   │   │   └── userContext.js
+    │   │   ├── App.css
+    │   │   ├── App.js
+    │   │   ├── index.js
+    │   │   └── serviceWorker.js
+    │   ├── package.json
+    │   └── package-lock.json
+    ├── server
+    │   ├── api
+    │   │   ├── middleware
+    │   │   │   ├── authentication.verification.js
+    │   │   │   ├── authorization.verification.js
+    │   │   │   └── body.validation.js
+    │   │   ├── models
+    │   │   │   ├── Booking.model.js
+    │   │   │   ├── Device.model.js
+    │   │   │   └── User.model.js
+    │   │   └── routes
+    │   │       ├── auth.route.js
+    │   │       ├── bookings.route.js
+    │   │       └── devices.route.js
+    │   ├── .env.dist
+    │   ├── package.json
+    │   ├── package-lock.json
+    │   └── server.js
     ├── .eslintrc.json
     ├── .prettierrc.json
     ├── package.json
     └── package-lock.json
+
 </details>
 
 ### Screenshots
