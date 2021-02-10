@@ -91,11 +91,11 @@ Demo of a single page application with RESTful API that allows SAP employees to 
 <details>
   <summary>Click to view</summary>
 
-  ![User's booking process](https://raw.githubusercontent.com/gevartrix/basic-booking-ui5/master/assets/user_book.png?raw=true)
+  ![User's booking process](https://raw.githubusercontent.com/gevartrix/basic-booking-ui5/master/.github/assets/user_book.png?raw=true)
 
-  ![Device details window](https://raw.githubusercontent.com/gevartrix/basic-booking-ui5/master/assets/user_viewdetails.png?raw=true)
+  ![Device details window](https://raw.githubusercontent.com/gevartrix/basic-booking-ui5/master/.github/assets/user_viewdetails.png?raw=true)
 
-  ![Admin Panel](https://raw.githubusercontent.com/gevartrix/basic-booking-ui5/master/assets/admin_panel.png?raw=true)
+  ![Admin Panel](https://raw.githubusercontent.com/gevartrix/basic-booking-ui5/master/.github/assets/admin_panel.png?raw=true)
 
 </details>
 
